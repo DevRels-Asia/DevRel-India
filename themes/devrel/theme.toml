@@ -1,0 +1,16 @@
+name = "DevRel"
+license = "CC BY-NC-ND"
+licenselink = "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en"
+description = "A port of HTML5UP's dimension theme."
+homepage = "https://github.com/your-identity/hugo-theme-dimension/"
+tags = ["blog", "clean", "customizable", "dark", "highlighting", "minimal", "personal", "responsive", "simple"]
+features = ["blog", "syntax highlighting"]
+min_version = 0.54
+
+[author]
+  name = "shubhendra"
+  homepage = "https://camelcaseguy.com"
+
+[original]
+    author = "HTML5UP"
+    homepage = "https://html5up.net"

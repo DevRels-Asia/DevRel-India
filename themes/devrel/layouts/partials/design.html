@@ -1,0 +1,44 @@
+<!-- Design -->
+<footer id="footer">
+  <div class="container-fluid container">
+
+    <div class="row">
+      <div class="col-md-4">
+        {{ if $.Site.Data }}
+        <h3>Location</h3>
+        <p>The closest airport to</p>
+        <p>
+          {{ range $.Site.Data.admins }}
+          {{ partial "admins.html" . }}
+          {{ end }}
+        </p>
+        {{ else }}
+        <p>No Admins!</p>
+        {{ end }}
+      </div>
+      <div class="col-md-4">
+        <h3>Around the Web</h3>
+        <ul class="list-inline">
+          <li>
+            <a href="#" class=" btn-circle">
+              <i class="fab fa-slack"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="btn-circle">
+              <i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href="#" class="btn-circle">
+              <i class="fab fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-col col-md-4">
+        <h3>Credits</h3>
+        <p>The website is inspired from DevRel Collective</p>
+      </div>
+    </div>
+  </div>
+  <p class="copyright">&copy; <a href="https://github.com/devrels-asia">DevRel Asia</a></p>
+</footer>

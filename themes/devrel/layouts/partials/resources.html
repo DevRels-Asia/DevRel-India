@@ -1,0 +1,13 @@
+
+<div class="resources">
+{{ if $.Site.Data.resources }}
+  {{ $sorted := sort .Site.Data.resources }}
+  {{ range $sorted}}
+    <h3>{{ .category }}</h3>
+    {{ range .links }}
+        <a href={{ .link }} target="_blank" class="btn-outline">{{ .value }}</a>
+    {{ end }}
+  {{ end }}
+
+{{ end }}
+</div>
