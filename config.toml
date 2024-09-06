@@ -1,4 +1,4 @@
-baseURL = "https://devrelindia.in/"
+baseURL = "https://devrelindia.netlify.app"
 languageCode = "en-us"
 title = "DevRel India"
 theme = "devrel"
