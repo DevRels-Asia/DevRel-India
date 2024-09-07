@@ -94,7 +94,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #1b1f22;
+		background: linear-gradient(135deg, #9ECF90, #7FAA6B);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
